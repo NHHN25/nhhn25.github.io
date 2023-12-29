@@ -1257,6 +1257,7 @@ input, select, textarea {
     outline: none; /* Removes any outlines */
     width: 100%; /* Set to the desired width */
     height: auto; /* Set to the desired height, should match width for a circle */
+	aspect-ratio: 1/1;
 	max-width: 200px;
     object-fit: cover; /* Ensures the image covers the area without stretching */
     display: block; /* Ensures the image is displayed as a block-level element */
