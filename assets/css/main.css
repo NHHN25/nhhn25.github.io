@@ -1714,7 +1714,7 @@ input, select, textarea {
 					height: 2.5rem;
 					border-radius: 100%;
 					background-position: center;
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23000000%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
 					background-size: 20px 20px;
 					background-repeat: no-repeat;
 				}
@@ -1754,15 +1754,25 @@ input, select, textarea {
 /* Project Grid */
 #projects .project-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Slightly larger min width for better visual */
 	gap: 2rem; /* More space between cards */
 	padding: 2rem; /* Consistent padding */
 	margin-top: 1rem; /* Space from previous content */
+	max-width: 1200px; /* Max width for optimal reading length */
+	margin: auto;
+	grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+	/* justify-content: space-around;
+	flex-wrap: wrap; */
   }
   
   /* Project Card */
   #projects .project-card {
     background: transparent; /* Semi-transparent white for a frosted glass effect */
+	width: 100%;
+	height: auto;
+	flex: 0 0 400px;
+	max-width: 1200px;
+	min-width: 450px; 
+	min-height: 500px;
 	border: 2px solid #333; /* White border for contrast */
     border-radius: 15px; /* Rounded corners for a softer look */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow for a 3D effect */
