@@ -16,8 +16,8 @@ Welcome to my GitHub Portfolio! I'm Nam Nguyen, a Computer Science student passi
 
 ## Contact Me
 
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/nhhn25)
-- GitHub: [Your GitHub](https://github.com/nhhn25)
+- [LinkedIn](https://www.linkedin.com/in/nhhn25)
+- [GitHub](https://github.com/nhhn25)
 
 Feel free to explore my projects and reach out if you have any questions or collaboration ideas!
 
