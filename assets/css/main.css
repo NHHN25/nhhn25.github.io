@@ -1255,8 +1255,9 @@ input, select, textarea {
     border: solid 1px #333; /* Removes any borders */
 	box-shadow: inset 0 0 0 1px #333; /* Adds a border effect */
     outline: none; /* Removes any outlines */
-    width: 200px; /* Set to the desired width */
-    height: 200px; /* Set to the desired height, should match width for a circle */
+    width: 100%; /* Set to the desired width */
+    height: auto; /* Set to the desired height, should match width for a circle */
+	max-width: 200px;
     object-fit: cover; /* Ensures the image covers the area without stretching */
     display: block; /* Ensures the image is displayed as a block-level element */
     margin-right: 15px; /* Adjust space to the right of the image, if needed */
